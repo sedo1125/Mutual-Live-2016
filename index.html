@@ -56,7 +56,7 @@
         		navigation: true,
         		navigationPosition: 'right',
         		navigationTooltips: ['Home', 'Album', 'News', 'Photos', 'Discography', 'Videos', 'Shows', 'About', 'Contact'],
-        		showActiveTooltip: true,
+        		showActiveTooltip: false,
         		slidesNavigation: false,
         		responsive: 1210,
         		scrollbar:true,
@@ -65,7 +65,7 @@
 					$('video').get(0).play();
 					}
 				});
-			$.fn.fullpage.setScrollingSpeed(300);
+			$.fn.fullpage.setScrollingSpeed(500);
 			$(".nav a").on("click", function(){
 				$(".nav").find(".active").removeClass("active");
 				$(this).parent().addClass("active");
