@@ -201,7 +201,7 @@ max-height: 810px;
 
 #section1 { 
   /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('../images/Mutual_V1_006.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('http://s19.postimg.org/tf92baser/Mutual_V1_006.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -479,7 +479,7 @@ figure:hover img {
         background: rgba(255, 255, 255, 0)!important;
     }
 #section5 { 
-  background: url('../images/Mutual_V1_011.jpg');
+  background: url('http://s19.postimg.org/diaael00j/Mutual_V1_011.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -500,7 +500,7 @@ ol, ul {
 }
 /*-----------------------------------------*/
 #section6 { 
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/CROWD_V1_003.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('http://s19.postimg.org/elueqjknn/CROWD_V1_003.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -526,7 +526,8 @@ ol, ul {
 
 /*Zack*/
 #section8a { 
-  background: url('../images/Mutual_V1_010.jpg');
+/*  background: url('../images/Mutual_V1_010.jpg');*/
+  background: url('http://s17.postimg.org/rel9yofkv/Mutual_V1_010.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -534,7 +535,7 @@ ol, ul {
 }
 /*Dan*/
 #section8b { 
-  background: url('../images/Mutual_V1_017.jpg');
+  background: url('http://s19.postimg.org/b7c8aep8z/Mutual_V1_017.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -542,7 +543,7 @@ ol, ul {
 }
 /*Joseph*/
 #section8c { 
-  background: url('../images/Mutual_V1_023.jpg');
+  background: url('http://s19.postimg.org/y7ivmqn2r/Mutual_V1_023.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -550,7 +551,7 @@ ol, ul {
 }
 /*Evan*/
 #section8d { 
-  background: url('../images/Mutual_V1_013.jpg');
+  background: url('http://s19.postimg.org/3ot31rxw3/Mutual_V1_013.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
