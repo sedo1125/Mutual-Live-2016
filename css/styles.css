@@ -197,7 +197,7 @@ max-height: 810px;
 
 #section1 { 
   /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('/images/ML homepage pic.001.jpeg');
+  background: url('../images/mobilehome.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
