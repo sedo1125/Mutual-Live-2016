@@ -577,7 +577,7 @@ ol, ul {
 }
 
 @media (max-width: 1210px){
-    .footer { 
+    .footer, #myVideo, .mute { 
         display : none; 
         visibility : hidden; 
     }
