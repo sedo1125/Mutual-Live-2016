@@ -50,3 +50,17 @@ $('#show3').hover(function() {
 $('#myVideo').click( function (){
     $(this).prop('muted', !$(this).prop('muted'));
 });
+
+
+/*$('#section1').click(function() {
+    $('.unmute').fadeTo("fast", 0);
+    $('.mute').fadeTo("fast",1);
+}, function() {
+    $('.unmute').fadeTo("fast", 1);
+    $('.mute').fadeTo("fast",0);
+});*/
+
+$("#section1").click(function(){
+    $(".mute").toggle();
+});
+
