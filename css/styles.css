@@ -23,12 +23,14 @@ p::first-letter {
   color: #665E28;
   line-height:1;
 }
+
 h1 {
   font-family: 'Covered By Your Grace', cursive;
   font-size: 4em;
 }
 h2 {
   font-family: 'Covered By Your Grace', cursive;
+  color: white;
 }
 h1, h3, h4 {
 	color: #f2f2f2;
@@ -40,9 +42,7 @@ h3 {
 	font-size: 2em;
 	font-weight:bold;
 }
-h2 {
-    color: white;
-}
+
 
 .centerbuttons h3 {
   font-size: 2em;
@@ -444,29 +444,77 @@ figure:hover img {
 	position: relative;
 	top:0px;
 	background: rgba(0,0,0,0.6);
-	height:318px;
-	width: 318px;
+	height:100%;
+	width: 100%;
 	border: 2px solid #ddd;
     border-radius: 4px;
+      z-index:  1;
 }
 .thumbnail {
+  position: relative;
+  z-index: 500;
   background: black;
   margin-bottom: 0px;
-  height:320px;
-  width: 320px;
+  height:auto;
+  width: auto;
 }
+
 .discography {
 	position: relative;
-	top:-320px;
+	top:0;
 	left:auto;
-	
+	z-index: 999;
 	display:none;
+  opacity:  0.99;
 }
-#show, #show2, #show3 {
-	width: 350px;
-	height: 350px;
+
+
+
+.red, .green {
+  position: absolute;
+  width: 90%;
+  color: white;
+  line-height: 50px;
+  text-align: left;
+}
+
+.red {
+  z-index: 1;
+  top: 60px;
+  background: black;
+}
+
+.green {
+  top: 60px;
+  background: black;
+  height:auto;
+}
+
+
+
+.image1, .list1 {
+  position: absolute;
+  width: auto;
+  color: white;
+  text-align: left;
+  line-height: 100px;
+}
+
+.image1 {
+  z-index: 1;
+  background: red;
+}
+
+.list1 {
+  top: 25%;
+  background: green;
+}
+#show2, #show3 {
+  position: relative; 
+	width: auto;
+	height: auto;
 	margin-right: auto;
-    margin-left: auto;
+  margin-left: auto;
 	background-color: black;
 }
 

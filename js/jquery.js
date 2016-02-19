@@ -1,3 +1,28 @@
+// $(function() {
+//  $('#CD1').hover(function(){
+//    $('#CD1').fadeTo("fast", 0);
+//    $('#CDBack1').fadeTo("fast", 1);
+//  }, function() {
+//    $('#CD1').fadeTo("fast", 1);
+//    $('#CDBack1').fadeTo("fast", 0);
+//  });
+// });
+
+
+$(function() {
+ $('.red').hover(function(){
+    var ht = $(this).height()
+    $('.green').height(ht)
+   $('.red').fadeTo("fast", 0);
+   $('.green').fadeTo("fast", 1);
+ }, function() {
+   $('.red').fadeTo("fast", 1);
+   $('.green').fadeTo("fast", 0);
+ });
+});
+
+
+
 $('#news1').hover(function() {
     $('.newstitle1').fadeTo("fast", 0);
 	$('.content1').fadeTo("fast",1);
