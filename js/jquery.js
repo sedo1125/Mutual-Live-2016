@@ -13,8 +13,8 @@ $(function() {
  $('.red').hover(function(){
     var ht = $(this).height()
     $('.green').height(ht)
-   $('.red').fadeTo("fast", 0);
-   $('.green').fadeTo("fast", 1);
+    $('.red').fadeTo("fast", 0);
+    $('.green').fadeTo("fast", 1);
  }, function() {
    $('.red').fadeTo("fast", 1);
    $('.green').fadeTo("fast", 0);

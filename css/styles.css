@@ -51,7 +51,9 @@ a {
   color: rgb(37,22,19);
 }
 
-
+.fp-tableCell {
+  vertical-align: top
+}
 #fp-nav {
     top:110px;
 }
