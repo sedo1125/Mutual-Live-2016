@@ -476,7 +476,7 @@ figure:hover img {
   position: absolute;
   width: 90%;
   color: white;
-  line-height: 50px;
+  line-height: 220%;
   text-align: left;
 }
 
@@ -492,7 +492,10 @@ figure:hover img {
   height:auto;
 }
 
-
+.CDPlaceHolder {
+  width: 90%;
+  min-height: 350px;
+}
 
 .image1, .list1 {
   position: absolute;
