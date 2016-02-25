@@ -54,6 +54,16 @@ a {
 .fp-tableCell {
   vertical-align: top
 }
+
+.fp-controlArrow.fp-prev{
+    border-color: transparent rgba(174, 102, 102, 0.5) transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent rgba(174, 102, 102, 0.5);
+}
+
 #fp-nav {
     top:110px;
 }
