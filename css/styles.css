@@ -506,6 +506,9 @@ figure:hover img {
   .CDPlaceHolder {
     min-height: 400px;
   }
+  h1 {
+    font-size: 48px;
+  }
 }
 
 .CDPlaceHolder {
