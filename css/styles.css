@@ -608,6 +608,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 50%; 
 }
 /*Dan*/
 #section8b { 
@@ -616,6 +617,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-position: 25%; 
 }
 /*Joseph*/
 #section8c { 
@@ -624,6 +626,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-position: 75%; 
 }
 /*Evan*/
 #section8d { 
@@ -632,6 +635,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-position: 50%; 
 }
 
 .aboutme {
