@@ -180,19 +180,7 @@ max-height: 810px;
     -moz-border-radius:27px;
     -webkit-border-radius:27px;
 }
-
-.footerbottom {
-	position: absolute;
-	bottom: 65px;
-	float: right;
-	height: 35px;
-	background-color: transparent;
-	color: #fff;
-	width: 100%;
-	text-align: right;
-	right: 2%;
-	opacity: 0.7
-}
+  
 
 .fa {
 	color: #f2f2f2;
@@ -654,6 +642,11 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.videovictor {
+  color: #808080;
+  font-weight: bold;
 }
 
 .leftalign {
