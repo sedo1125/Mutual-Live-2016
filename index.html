@@ -51,7 +51,10 @@
 
 	<script type="text/javascript">
 		$(window).load(function() {
-			$("#loader").fadeOut("slow");
+			function show_popup(){
+				$("#loader").fadeOut("slow");
+			};
+			window.setTimeout(show_popup, 1000);
 		});
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
