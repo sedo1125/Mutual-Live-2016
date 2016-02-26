@@ -321,7 +321,7 @@ img {
 }
 
 .newspanel {
-  height:375px;
+  height:475px;
   background-color: rgba(0,0,0,0.7);
   border: 1px solid white;
 }
@@ -607,7 +607,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 50%; 
+  background-position: 65%; 
 }
 /*Dan*/
 #section8b { 
