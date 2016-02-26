@@ -54,6 +54,16 @@ a {
 .fp-tableCell {
   vertical-align: top
 }
+
+.fp-controlArrow.fp-prev{
+    border-color: transparent rgba(174, 102, 102, 0.5) transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent rgba(174, 102, 102, 0.5);
+}
+
 #fp-nav {
     top:110px;
 }
@@ -311,7 +321,7 @@ img {
 }
 
 .newspanel {
-  height:375px;
+  height:475px;
   background-color: rgba(0,0,0,0.7);
   border: 1px solid white;
 }
@@ -589,7 +599,6 @@ ol, ul {
 	opacity: 0.7;
 }
 /*-----------------------------------------*/
-
 /*Zack*/
 #section8a { 
 /*  background: url('../images/Mutual_V1_010.jpg');*/
@@ -598,6 +607,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 65%; 
 }
 /*Dan*/
 #section8b { 
@@ -606,6 +616,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-position: 25%; 
 }
 /*Joseph*/
 #section8c { 
@@ -614,6 +625,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-position: 75%; 
 }
 /*Evan*/
 #section8d { 
@@ -622,6 +634,7 @@ ol, ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-position: 50%; 
 }
 
 .aboutme {
