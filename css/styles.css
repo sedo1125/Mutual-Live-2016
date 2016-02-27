@@ -219,7 +219,7 @@ img {
 
 #section2 { 
   /*background: url(https://wallpaperscraft.com/image/guitar_strings_strips_17680_1920x1080.jpg) no-repeat center center ; */
-  background: url('../images/album - Copy.jpg');
+  background: url('../images/bg/section2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -301,7 +301,7 @@ img {
 }
 
 #section3 { 
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/guitarbg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/section3.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -547,7 +547,7 @@ figure:hover img {
         background: rgba(255, 255, 255, 0)!important;
     }
 #section5 { 
-  background: url('../images/Mutual_V1_011.jpg');
+  background: url('../images/bg/section5.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -568,7 +568,7 @@ ol, ul {
 }
 /*-----------------------------------------*/
 #section6 { 
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/CROWD_V1_003.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/section6.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -578,7 +578,7 @@ ol, ul {
 /*-----------------------------------------*/
 
 #section7 { 
-  background: url('../images/Mutual_V1_018.jpg');
+  background: url('../images/bg/section7.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -594,7 +594,7 @@ ol, ul {
 /*Zack*/
 #section8a { 
 /*  background: url('../images/Mutual_V1_010.jpg');*/
-  background: url('../images/Mutual_V1_010.png');
+  background: url('../images/bg/section8a.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -603,7 +603,7 @@ ol, ul {
 }
 /*Dan*/
 #section8b { 
-  background: url('../images/Mutual_V1_017.jpg');
+  background: url('../images/bg/section8b.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -612,7 +612,7 @@ ol, ul {
 }
 /*Joseph*/
 #section8c { 
-  background: url('../images/Mutual_V1_023.jpg');
+  background: url('../images/bg/section8c.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -621,7 +621,7 @@ ol, ul {
 }
 /*Evan*/
 #section8d { 
-  background: url('../images/Mutual_V1_013.jpg');
+  background: url('../images/bg/section8d.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -637,7 +637,7 @@ ol, ul {
 
 #section9 { 
   /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('../images/smokebg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('../images/bg/section9.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
