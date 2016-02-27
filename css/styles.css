@@ -196,15 +196,6 @@ max-height: 810px;
 	padding-right: 15px;
 }
 
-#section1 { 
-  /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-  background: url('../images/mobilehome.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 img {
     max-width: 100%;
     max-height: 100%;      
@@ -655,6 +646,15 @@ ol, ul {
 }
 
 @media (max-width: 1210px){
+
+    #section1 { 
+    /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
+    background: url('../images/mobilehome.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
     .footer, #myVideo, .mute { 
         display : none; 
         visibility : hidden; 
