@@ -509,31 +509,6 @@ figure:hover img {
   width: 100%; 
 }
 
-.image1, .list1 {
-  position: absolute;
-  width: auto;
-  color: white;
-  text-align: left;
-  line-height: 100px;
-}
-
-.image1 {
-  z-index: 1;
-  background: red;
-}
-
-.list1 {
-  top: 25%;
-  background: green;
-}
-#show2, #show3 {
-  position: relative; 
-	width: auto;
-	height: auto;
-	margin-right: auto;
-  margin-left: auto;
-	background-color: black;
-}
 
 .panel-transparent .panel-body{
         background: rgba(255, 255, 255, 0)!important;
