@@ -227,7 +227,7 @@ img {
     color: #231F20;
     font-weight: bold;
     line-height: 90px;
-    font-size: 3.2em;
+    font-size: 2.7em;
 }
 .albumcover {
   opacity: 1;
@@ -632,14 +632,55 @@ ol, ul {
     background-size: cover;
     background-position: 50% 50%; 
     }
+    .pulse {
+      animation-name: pulse_animation;
+      animation-duration: 5000ms;
+      transform-origin:50% 50%;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+    @keyframes pulse_animation {
+      0% { transform: scale(1);
+           transform: rotate(2deg);
+           }
+
+      1% { transform: scale(1.01); }           
+      2% { transform: scale(1); }
+      3% { transform: scale(1.01); }
+
+      4% { transform: scale(1); 
+          transform: rotate(-2deg);
+        }
+
+      5% { transform: scale(1.01); }           
+      6% { transform: scale(1); }
+      7% { transform: scale(1.01); }
+
+      8% { transform: scale(1); 
+          transform: rotate(2deg);
+        }
+
+      9% { transform: scale(1.01); }           
+      10% { transform: scale(1); }
+      11% { transform: scale(1.01); }
+
+      30% { transform: scale(1); }
+      40% { transform: scale(1); }
+      50% { transform: scale(1); }
+      60% { transform: scale(1); }
+      70% { transform: scale(1); }
+      80% { transform: scale(1); }
+      90% { transform: scale(1); }
+    }
     .section1aCrest {
+      opacity: 0.75;
       padding-top: 35px;
       padding-left: 10%;
       padding-right: 10%;
     }
     .section1aMobile {
       padding-bottom: 200px;
-      color: #231F20;
+      color: #5A3927;
       font-weight: bold;
     }
     .footer, #myVideo, .mute { 
