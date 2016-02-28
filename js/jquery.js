@@ -37,6 +37,10 @@ $(window).load(function() {
             });
         });
 
+$(".navbar-nav li a").click(function(event) {
+  $(".navbar-collapse").collapse('hide');
+});
+
 $('#myVideo').click( function (){
     $(this).prop('muted', !$(this).prop('muted'));
 });
