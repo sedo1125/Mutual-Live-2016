@@ -224,7 +224,8 @@ img {
     height: 89px;
 }
 .nowavailabletext{
-    color: black;
+    color: #231F20;
+    font-weight: bold;
     line-height: 90px;
     font-size: 3.2em;
 }
@@ -624,12 +625,23 @@ ol, ul {
 
     #section1 { 
     /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-    background: url('../images/mobilehome.jpg');
+    background: url('../images/Moble-Home.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+    background-position: 50% 50%; 
+    }
+    .section1aCrest {
+      padding-top: 35px;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .section1aMobile {
+      padding-bottom: 200px;
+      color: #231F20;
+      font-weight: bold;
+    }
     .footer, #myVideo, .mute { 
         display : none; 
         visibility : hidden; 
