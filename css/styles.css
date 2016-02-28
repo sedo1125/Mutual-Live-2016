@@ -171,28 +171,17 @@ max-height: 810px;
 }
 
 .socialbtn{
+    padding-left: 2px !important;
     border:3px solid #FFF;
     text-align: center;
     line-height: 1.8em;  
     width: 50px;
     height: 50px;
-    border-radius: 27px;
-    -moz-border-radius:27px;
-    -webkit-border-radius:27px;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
 }
-
-.footerbottom {
-	position: absolute;
-	bottom: 65px;
-	float: right;
-	height: 35px;
-	background-color: transparent;
-	color: #fff;
-	width: 100%;
-	text-align: right;
-	right: 2%;
-	opacity: 0.7
-}
+  
 
 .fa {
 	color: #f2f2f2;
@@ -205,15 +194,6 @@ max-height: 810px;
 .socialmedia li {
 	display: inline;
 	padding-right: 15px;
-}
-
-#section1 { 
-  /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-  background: url('../images/mobilehome.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 img {
@@ -231,7 +211,7 @@ img {
 
 #section2 { 
   /*background: url(https://wallpaperscraft.com/image/guitar_strings_strips_17680_1920x1080.jpg) no-repeat center center ; */
-  background: url('../images/album - Copy.jpg');
+  background: url('../images/bg/section2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -313,7 +293,7 @@ img {
 }
 
 #section3 { 
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('https://wallpaperscraft.com/image/guitar_strings_strips_17680_1920x1080.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/section3.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -529,37 +509,12 @@ figure:hover img {
   width: 100%; 
 }
 
-.image1, .list1 {
-  position: absolute;
-  width: auto;
-  color: white;
-  text-align: left;
-  line-height: 100px;
-}
-
-.image1 {
-  z-index: 1;
-  background: red;
-}
-
-.list1 {
-  top: 25%;
-  background: green;
-}
-#show2, #show3 {
-  position: relative; 
-	width: auto;
-	height: auto;
-	margin-right: auto;
-  margin-left: auto;
-	background-color: black;
-}
 
 .panel-transparent .panel-body{
         background: rgba(255, 255, 255, 0)!important;
     }
 #section5 { 
-  background: url('http://s19.postimg.org/diaael00j/Mutual_V1_011.jpg');
+  background: url('../images/bg/section5.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -580,7 +535,7 @@ ol, ul {
 }
 /*-----------------------------------------*/
 #section6 { 
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('http://s19.postimg.org/elueqjknn/CROWD_V1_003.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/section6.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -590,7 +545,7 @@ ol, ul {
 /*-----------------------------------------*/
 
 #section7 { 
-  background: url('../images/Mutual_V1_018.jpg');
+  background: url('../images/bg/section7.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -606,7 +561,7 @@ ol, ul {
 /*Zack*/
 #section8a { 
 /*  background: url('../images/Mutual_V1_010.jpg');*/
-  background: url('http://s17.postimg.org/rel9yofkv/Mutual_V1_010.jpg');
+  background: url('../images/bg/section8a.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -615,7 +570,7 @@ ol, ul {
 }
 /*Dan*/
 #section8b { 
-  background: url('http://s19.postimg.org/b7c8aep8z/Mutual_V1_017.jpg');
+  background: url('../images/bg/section8b.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -624,7 +579,7 @@ ol, ul {
 }
 /*Joseph*/
 #section8c { 
-  background: url('http://s19.postimg.org/y7ivmqn2r/Mutual_V1_023.jpg');
+  background: url('../images/bg/section8c.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -633,7 +588,7 @@ ol, ul {
 }
 /*Evan*/
 #section8d { 
-  background: url('http://s19.postimg.org/3ot31rxw3/Mutual_V1_013.jpg');
+  background: url('../images/bg/section8d.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -649,18 +604,32 @@ ol, ul {
 
 #section9 { 
   /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c');
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('../images/bg/section9.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.videovictor {
+  color: #808080;
+  font-weight: bold;
+}
+
 .leftalign {
   text-align: left;
 }
 
-@media (max-width: 1210px){
+@media (max-width: 750px){
+
+    #section1 { 
+    /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
+    background: url('../images/mobilehome.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
     .footer, #myVideo, .mute { 
         display : none; 
         visibility : hidden; 
@@ -672,7 +641,14 @@ ol, ul {
     }
 }
 
+@media (max-width:992px) {
+  .albumcover {
+    width: 100% !important;
+  }
+}
+
 #loader {
+  position: fixed;
   z-index: 999999;
   display: block;
   position: fixed;
@@ -684,4 +660,60 @@ ol, ul {
   background: black url('../images/biglogo.png') no-repeat;
   background-position: 50%;
   background-size: 85%;
+}
+
+.spinner {
+  margin-top: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  z-index: 999999;
+  background-color: white;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
 }

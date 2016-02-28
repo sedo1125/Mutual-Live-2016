@@ -7,83 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Our professional search consultants invest significant time in identifying and building relationships with the very best candidates in certain skillsets.">
     <meta name="keywords" content="executive Search, recruiting, headhunter, executive placement, career advancement, job placement, contract assignments">
-    <link rel="canonical" href="http://allygn.com/index">
 
     <title>Mutual Live</title>
 
-	<!-- Set the page to the width of the device and set the zoom level -->
-	<meta name="viewport" content="width = device-width, initial-scale = 1">
-
-	<!-- FullPage CSS default -->
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-
-	<!-- jQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	
-	<!-- FullPage.JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.js"></script>
-    
 	<!-- Fa fa Font for icons -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    	
 	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
-
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Oswald|Raleway|Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-	
+
+	<!-- FullPage CSS default -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
 	<!-- Custom CSS Style Sheet -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
 	<!-- Light Box Photo Gallery -->
 	<link href="css/lightbox.css" rel="stylesheet">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-
-
-	<script type="text/javascript">
-		$(window).load(function() {
-			function show_popup(){
-				$("#loader").fadeOut("slow");
-			};
-			window.setTimeout(show_popup, 1000);
-		});
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				menu: '#myMenu',
-				sectionsColor: ['black', 'black', 'black', 'black', 'black', 'black', 'black', 'black', 'black', 'black'],
-        		lockAnchors: false,
-        		navigation: true,
-        		navigationPosition: 'right',
-        		navigationTooltips: ['Home', 'Album', 'News', 'Photos', 'Discography', 'Videos', 'Shows', 'About', 'Contact'],
-        		showActiveTooltip: false,
-        		slidesNavigation: false,
-        		responsive: 1210,
-        		scrollbar:true,
-				afterRender: function(){
-					//playing the video
-					$('video').get(0).play();
-					}
-				});
-			$.fn.fullpage.setScrollingSpeed(500);
-			$(".nav a").on("click", function(){
-				$(".nav").find(".active").removeClass("active");
-				$(this).parent().addClass("active");
-			});
-		});
-	</script>
 </head>
 
 <body>
-<div id="loader"></div>
+<div id="loader">
+
+	<div class="spinner">
+	  <div class="rect1"></div>
+	  <div class="rect2"></div>
+	  <div class="rect3"></div>
+	  <div class="rect4"></div>
+	  <div class="rect5"></div>
+	</div>	
+</div>
+
 <!-- Collapsible Navigation Bar -->
 <div class="container">
 	<div class="well hidden-lg">
@@ -156,7 +111,7 @@
 			<div class="row">
 				<h1>Mama raised an outlaw</h1>
 				<div class="col-lg-7 col-md-7 col-sm-12">
-					<img src="images/album.jpg" class="center-block img-responsive albumcover">
+					<img src="images/disc/album1.jpg" class="center-block img-responsive albumcover">
 					<br>
 				</div>
 				
@@ -211,7 +166,7 @@
 				<div class="col-lg-4 col-md-12 col-sm-12">					
 					<div class="panel panel-default newspanel bodynews1">
 						<div class="panel-heading newsheading">
-							<h4 class="date-numbers">December 19, 2016</h4>
+							<h4 class="date-numbers">December 19, 2015</h4>
 						</div>
 						<div id="news1" class="panel-body">
 							<h2 class="newstitle1">
@@ -230,7 +185,7 @@
 				<div class="col-lg-4 col-md-12 col-sm-12">					
 					<div class="panel panel-default newspanel bodynews2">
 						<div class="panel-heading newsheading">
-							<h4 class="date-numbers">December 11, 2016</h4>
+							<h4 class="date-numbers">December 11, 2015</h4>
 						</div>
 						<div id="news2" class="panel-body">
 							<h2 class="newstitle2">
@@ -252,7 +207,7 @@
 				<div class="col-lg-4 col-md-12 col-sm-12">					
 					<div class="panel panel-default newspanel bodynews3">
 						<div class="panel-heading newsheading">
-							<h4 class="date-numbers">December 4, 2016</h4>
+							<h4 class="date-numbers">December 4, 2015</h4>
 						</div>
 						<div id="news3" class="panel-body">
 							<h2 class="newstitle3">
@@ -282,8 +237,8 @@
 						<div class="col-lg-6 nopadding">
 							<div class="column">	
 								<figure>
-									<a href="images/photogal/DSC_0030 (669x1280).jpg" data-lightbox="gallery" data-title="Caption here">
-										<img src="images/photogal/DSC_0030 (669x1280).jpg" height="auto" width="100%" />
+									<a href="images/photogal/1.jpg" data-lightbox="gallery" data-title="Caption here">
+										<img src="images/photogal/1.jpg" height="auto" width="100%" />
 									</a>
 								</figure>	
 							</div>	
@@ -291,8 +246,8 @@
 						<div class="col-lg-6 nopadding">
 							<div class="column">	
 								<figure>
-									<a href="images/photogal/IMG_8788 (719x1280).jpg" data-lightbox="gallery" data-title="Caption here">
-										<img src="images/photogal/IMG_8788 (719x1280).jpg" height="auto" width="100%" />
+									<a href="images/photogal/2.jpg" data-lightbox="gallery" data-title="Caption here">
+										<img src="images/photogal/2a.jpg" height="auto" width="100%" />
 									</a>
 								</figure>	
 							</div>
@@ -300,8 +255,8 @@
 						<div class="col-lg-12 nopadding">
 							<div class="column">	
 								<figure>
-									<a href="images/photogal/Mutual_V1_019 (1280x816).jpg" data-lightbox="gallery" data-title="Caption here">
-										<img src="images/photogal/Mutual_V1_019 (1280x816).jpg" height="auto" width="100%" />
+									<a href="images/photogal/3.jpg" data-lightbox="gallery" data-title="Caption here">
+										<img src="images/photogal/3a.jpg" height="auto" width="100%" />
 									</a>
 								</figure>	
 							</div>
@@ -312,24 +267,24 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 nopadding">
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/FotorCreated (1280x720).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/FotorCreated (1280x720).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/4.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/4a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/11054620_910333305673274_1607749550_o.jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/11054620_910333305673274_1607749550_o.jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/5.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/5a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/11045635_910335105673094_1794420230_o (1) copy.jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/11045635_910335105673094_1794420230_o (1) copy.jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/6.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/6a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
@@ -339,24 +294,24 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 nopadding">
 						<div class="column">	
 							<figure>
-								<a href="images/photogal/mutualliveatrnr-129 (1280x853).jpg" data-lightbox="gallery" data-title="Caption here">
-									<img src="images/photogal/mutualliveatrnr-129 (1280x853).jpg" height="auto" width="100%"/>
+								<a href="images/photogal/7.jpg" data-lightbox="gallery" data-title="Caption here">
+									<img src="images/photogal/7a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>	
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/IMG_8106 (1280x719).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/IMG_8106 (1280x719).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/8.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/8a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/IMG_8831 (1280x719).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/IMG_8831 (1280x719).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/9.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/9a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
@@ -366,30 +321,30 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 nopadding">
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/11054772_910334672339804_614700882_o.jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/11054772_910334672339804_614700882_o.jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/10.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/10a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/11045741_910335365673068_22635761_o (1) (1280x853).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/11045741_910335365673068_22635761_o (1) (1280x853).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/11.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/11a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/mutualliveatrnr-98.jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/mutualliveatrnr-98.jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/12.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/12a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/Joseph2small.jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/Joseph2small.jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/13.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/13a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
@@ -399,24 +354,24 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 nopadding">
 						<div class="column">	
 							<figure>
-								<a href="images/photogal/IMG_8786 (1280x719).jpg" data-lightbox="gallery" data-title="Caption here">
-									<img src="images/photogal/IMG_8786 (1280x719).jpg" height="auto" width="100%"/>
+								<a href="images/photogal/14.jpg" data-lightbox="gallery" data-title="Caption here">
+									<img src="images/photogal/14a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>	
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/Whole Band_The Warehouse_Hawthorne Heights (960x720).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/Whole Band_The Warehouse_Hawthorne Heights (960x720).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/15.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/15a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/11045935_910334612339810_2067268865_o (1280x666).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/11045935_910334612339810_2067268865_o (1280x666).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/16.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/16a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
@@ -425,8 +380,8 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 nopadding">
 						<div class="column">	
 							<figure>
-								<a href="images/photogal/IMG_8307 (2) (719x1280).jpg" data-lightbox="gallery" data-title="Caption here">
-									<img src="images/photogal/IMG_8307 (2) (719x1280).jpg" height="auto" width="100%"/>
+								<a href="images/photogal/17a.jpg" data-lightbox="gallery" data-title="Caption here">
+									<img src="images/photogal/17.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>	
 						</div>
@@ -438,37 +393,37 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 nopadding">
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/CoverPhoto (824x310).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/CoverPhoto (824x310).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/18.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/18a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 
-						<div class="column">						
+						<div class="column">
 							<figure>
-						    	<a href="images/photogal/11045635_910335105673094_1794420230_o (1) copy (1280x853).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/11045635_910335105673094_1794420230_o (1) copy (1280x853).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/19.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/19a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 						<div class="column">	
 							<figure>
-								<a href="images/photogal/mutualliveatrnr-110 (1280x1120).jpg" data-lightbox="gallery" data-title="Caption here">
-									<img src="images/photogal/mutualliveatrnr-110 (1280x1120).jpg" height="auto" width="100%"/>
+								<a href="images/photogal/20.jpg" data-lightbox="gallery" data-title="Caption here">
+									<img src="images/photogal/20a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>	
 						</div>
 						<div class="column">	
 							<figure>
-								<a href="images/photogal/Zack2.jpg" data-lightbox="gallery" data-title="Caption here">
-									<img src="images/photogal/Zack2.jpg" height="auto" width="100%"/>
+								<a href="images/photogal/21.jpg" data-lightbox="gallery" data-title="Caption here">
+									<img src="images/photogal/21a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>	
 						</div>
 						<div class="column">	
 							<figure>
-								<a href="images/photogal/12341443_10153426904384965_4731872331686253950_n.jpg" data-lightbox="gallery" data-title="Caption here">
-									<img src="images/photogal/12341443_10153426904384965_4731872331686253950_n.jpg" height="auto" width="100%"/>
+								<a href="images/photogal/22.jpg" data-lightbox="gallery" data-title="Caption here">
+									<img src="images/photogal/22a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>	
 						</div>
@@ -478,8 +433,8 @@
 						<div class="col-lg-6 nopadding">
 							<div class="column">	
 								<figure>
-									<a href="images/photogal/IMG_8193 (719x1280).jpg" data-lightbox="gallery" data-title="Caption here">
-										<img src="images/photogal/IMG_8193 (719x1280).jpg" height="auto" width="100%" />
+									<a href="images/photogal/23.jpg" data-lightbox="gallery" data-title="Caption here">
+										<img src="images/photogal/23.jpg" height="auto" width="100%" />
 									</a>
 								</figure>	
 							</div>	
@@ -487,8 +442,8 @@
 						<div class="col-lg-6 nopadding">
 							<div class="column">	
 								<figure>
-									<a href="images/photogal/seadong (822x1280).jpg" data-lightbox="gallery" data-title="Caption here">
-										<img src="images/photogal/seadong (822x1280).jpg" height="auto" width="100%" />
+									<a href="images/photogal/24.jpg" data-lightbox="gallery" data-title="Caption here">
+										<img src="images/photogal/24.jpg" height="auto" width="100%" />
 									</a>
 								</figure>	
 							</div>
@@ -496,8 +451,8 @@
 						<div class="col-lg-12 nopadding">
 							<div class="column">	
 								<figure>
-									<a href="images/photogal/IMG_7930 (1280x1016).jpg" data-lightbox="gallery" data-title="Caption here">
-										<img src="images/photogal/IMG_7930 (1280x1016).jpg" height="auto" width="100%"/>
+									<a href="images/photogal/25.jpg" data-lightbox="gallery" data-title="Caption here">
+										<img src="images/photogal/25a.jpg" height="auto" width="100%"/>
 									</a>
 								</figure>	
 							</div>
@@ -507,16 +462,16 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 nopadding">
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/mutualliveatrnr-139 (1280x853).jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/mutualliveatrnr-139 (1280x853).jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/26.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/26a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
 
 						<div class="column">						
 							<figure>
-						    	<a href="http://s19.postimg.org/tf92baser/Mutual_V1_006.jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="http://s19.postimg.org/tf92baser/Mutual_V1_006.jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/27.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/27a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
@@ -524,8 +479,8 @@
 
 						<div class="column">						
 							<figure>
-						    	<a href="images/photogal/Zack&Dan_Wearhouse_Mutual_Live.jpg" data-lightbox="gallery" data-title="Caption here">
-						    		<img src="images/photogal/Zack&Dan_Wearhouse_Mutual_Live.jpg" height="auto" width="100%"/>
+						    	<a href="images/photogal/28.jpg" data-lightbox="gallery" data-title="Caption here">
+						    		<img src="images/photogal/28a.jpg" height="auto" width="100%"/>
 								</a>
 							</figure>
 						</div>
@@ -544,7 +499,7 @@
 					<h3 class="CDtopmargin">Mama Raised an Outlaw</h3>
 						<div class="CDPlaceHolder">	
 							<div id="CD1" class = "red">
-							     <img src="images/album.jpg">
+							     <img src="images/disc/album1.jpg">
 							</div>
 							<div id="CDBack1" class="green">
 							<br>
@@ -564,7 +519,7 @@
 					<h3 class="CDtopmargin">Stay</h3>
 						<div class="CDPlaceHolder">		
 							<div id="CD2" class = "red">
-							     <img src="images/STAY copy (1280x1280).jpg">
+							     <img src="images/disc/album2.jpg">
 							</div>
 							<div id="CDBack2" class="green">
 									<h3>Single Release</h3>
@@ -580,7 +535,7 @@
 					<h3 class="CDtopmargin">Mutual Live</h3>
 						<div class="CDPlaceHolder">		
 							<div id="CD3" class = "red">
-							     <img src="images/old album (700x700).jpg">
+							     <img src="images/disc/album3.jpg">
 							</div>
 							<div id="CDBack3" class="green">
 								<br>
@@ -628,22 +583,6 @@
 					<script type="text/javascript" src="http://www.bandsintown.com/javascripts/bit_widget.js"></script>
 					<a href="http://www.bandsintown.com" class="bit-widget-initializer" data-artist="Mutual Live">Bandsintown</a>
 				<br>
-<!-- 				<table class="table tablebg"> 
-					
-					<thead> 
-						<tr> 
-							<th></th> 
-							<th>Venue</th> 
-							<th>Location</th> 
-							<th>Bands</th> 
-						</tr> 
-					</thead> 
-					<tbody> 
-						<tr> <th scope="row">1</th> <td>Emporium</td> <td>Jackson, TN</td> <td>Maroon 5</td> </tr> 
-						<tr> <th scope="row">2</th> <td>Applebee's</td> <td>Chicago, IL</td> <td>Adele</td> </tr> 
-						<tr> <th scope="row">3</th> <td>The Intersection</td> <td>Grand Rapids, MI</td> <td>Wayland</td> </tr> 
-					</tbody> 
-				</table> -->
 			</div>
 		</div>
 	</div>
@@ -782,27 +721,43 @@
 
 					<div class="col-lg-4">
 					<h3 class="leftalign">Instagram</h3>
-						<!-- <iframe src="http://widget.websta.me/in/mutualliveband/?r=1&w=3&h=3&b=1&p=1" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:333px; height: 333px" ></iframe> <!-- websta - websta.me -->
+						<!-- <iframe src="http://widget.websta.me/in/mutualliveband/?r=1&w=3&h=3&b=1&p=1" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:333px; height: 333px" ></iframe> websta - websta.me -->
 					</div>                	
 					<div class="col-lg-4">
 						<h3 class="leftalign">Contact</h3>
 						<h4 class="leftalign">Booking/Management<br><br>
-						Sea Dong<br><br>
-						TheDongger@IsAwesome.com<br>
-						555-353-5345<br>
 						</h4>
+						<h4 class="leftalign">
+							Phone: (269) 532-6960 <br>
+							Email: Booking@mutual-live.com
+							<br>
+							<br>
+							<br>
+							Website by Sea Dong: sedo1125@gmail.com
+							<br>
+							<br>
+							Video and Photos by <a class="videovictor" href="http://www.victorlord.com">VideoVictor</a>
+						<h4>
+					<br>
 						<br>
 					</div>
 
 				<div class="footerbottom">
-					dong enterprises
+
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-	<script src="js/lightbox.js"></script>
-	<script src="js/jquery.js"></script>
+	<!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- FullPage.JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.js"></script>	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" async></script>
+	<!-- custom jQuery + lightbox-->
+	<script src="js/jQuery.js" async></script>
+
 <!-- 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
