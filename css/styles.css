@@ -620,7 +620,7 @@ ol, ul {
   text-align: left;
 }
 
-@media (max-width: 1210px){
+@media (max-width: 750px){
 
     #section1 { 
     /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
@@ -639,6 +639,12 @@ ol, ul {
         margin-right: auto;
         margin-left:auto;
     }
+}
+
+@media (max-width:992px) {
+  .albumcover {
+    width: 100% !important;
+  }
 }
 
 #loader {
