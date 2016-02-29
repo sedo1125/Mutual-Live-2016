@@ -64,6 +64,29 @@ a {
     border-color: transparent transparent transparent rgba(174, 102, 102, 0.5);
 }
 
+.navbar {
+	background:rgba(34,34,34,0.25);
+}
+.icon-bar {
+	background: white;
+}
+
+.navbar-toggle {
+	border: 1px solid rgba(255,255,255,.15);
+}
+
+.navbar-nav a {
+	color: rgb(255,255,255);
+    text-align: right;
+    font-family: "Oswald";
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+.navbar-nav a:hover {
+	color: black;
+}
+
 #fp-nav {
     top:110px;
 }
@@ -674,7 +697,7 @@ ol, ul {
     }
     .section1aCrest {
       opacity: 0.75;
-      padding-top: 35px;
+      padding-top: 55px;
       padding-left: 10%;
       padding-right: 10%;
     }
