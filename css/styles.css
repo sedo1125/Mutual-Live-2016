@@ -8,7 +8,7 @@ p {
 	font-family: 'Open Sans', sans-serif;
   text-transform: none;
 	font-weight: lighter;
-  color: white;
+  color: #FCFBE3;
 }
 
 
@@ -30,10 +30,10 @@ h1 {
 }
 h2 {
   font-family: 'Covered By Your Grace', cursive;
-  color: white;
+  color: #FCFBE3;
 }
 h1, h3, h4 {
-	color: #f2f2f2;
+	color: #FCFBE3;
 	font-weight: normal;
 	text-align: center;
   letter-spacing: 0.1em;
@@ -195,7 +195,7 @@ max-height: 810px;
 
 .socialbtn{
     padding-left: 2px !important;
-    border:3px solid #FFF;
+    border:3px solid #FCFBE3;
     text-align: center;
     line-height: 1.8em;  
     width: 50px;
@@ -207,7 +207,7 @@ max-height: 810px;
   
 
 .fa {
-	color: #f2f2f2;
+	color: #FCFBE3;
 }
 
 .mobilesocial {
@@ -360,6 +360,7 @@ font-family: Oswald;
 	padding-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
+  color: #FCFBE3;
 }
 
 .addpad {
@@ -715,7 +716,7 @@ ol, ul {
     }
     .section1aMobile {
       padding-bottom: 200px;
-      color: #fff;
+      color: #FCFBE3;
       font-weight: bold;
     }
     .footer, #myVideo, .mute { 
@@ -762,7 +763,7 @@ ol, ul {
 
 .spinner > div {
   z-index: 999999;
-  background-color: white;
+  background-color: #FCFBE3;
   height: 100%;
   width: 6px;
   display: inline-block;
