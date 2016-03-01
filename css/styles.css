@@ -717,7 +717,8 @@ ol, ul {
     .section1aMobile {
       padding-bottom: 200px;
       color: #FCFBE3;
-      font-weight: bold;
+      font-weight: 100;
+      letter-spacing: 0.2em;
     }
     .footer, #myVideo, .mute { 
         display : none; 
