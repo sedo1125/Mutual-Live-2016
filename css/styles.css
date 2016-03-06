@@ -247,7 +247,7 @@ img {
 
 #section2 { 
   /*background: url(https://wallpaperscraft.com/image/guitar_strings_strips_17680_1920x1080.jpg) no-repeat center center ; */
-  background: url('../images/bg/section2.jpg');
+  background: url('../images/bg/mama-raised-an-outlaw.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -330,7 +330,7 @@ img {
 }
 
 #section3 { 
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/section3.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/gibson.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -552,7 +552,7 @@ figure:hover img {
         background: rgba(255, 255, 255, 0)!important;
     }
 #section5 { 
-  background: url('../images/bg/section5.jpg');
+  background: url('../images/bg/dan-drogosh-white-gibson-les-paul.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -573,7 +573,7 @@ ol, ul {
 }
 /*-----------------------------------------*/
 #section6 { 
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/section6.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../images/bg/mutual-live-wayland-at-intersection.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -583,7 +583,7 @@ ol, ul {
 /*-----------------------------------------*/
 
 #section7 { 
-  background: url('../images/bg/section7.jpg');
+  background: url('../images/bg/zachary-charles.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -599,7 +599,7 @@ ol, ul {
 /*Zack*/
 #section8a { 
 /*  background: url('../images/Mutual_V1_010.jpg');*/
-  background: url('../images/bg/section8a.png');
+  background: url('../images/bg/zachary-charles-lead-singer.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -608,7 +608,7 @@ ol, ul {
 }
 /*Dan*/
 #section8b { 
-  background: url('../images/bg/section8b.jpg');
+  background: url('../images/bg/dan-drogosh-lead-guitar-gibson-custom.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -617,7 +617,7 @@ ol, ul {
 }
 /*Joseph*/
 #section8c { 
-  background: url('../images/bg/section8c.jpg');
+  background: url('../images/bg/joseph-maliszewski.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -626,7 +626,7 @@ ol, ul {
 }
 /*Evan*/
 #section8d { 
-  background: url('../images/bg/section8d.jpg');
+  background: url('../images/bg/evan-mayo-drums.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -642,7 +642,7 @@ ol, ul {
 
 #section9 { 
   /*background: url(http://il4.picdn.net/shutterstock/videos/9319601/thumb/1.jpg?i10c) no-repeat center center ; */
-  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('../images/bg/section9.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .85)), url('../images/bg/show-smoke.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
