@@ -17,46 +17,6 @@
 
     <title>Mutual Live</title>
 
-	<script type="application/ld+json">
-	{
-	  "@context":"http://schema.org",
-	  "@type":"MusicGroup",
-	  "url":[
-	    "http://www.mutual-live.com"
-	  ],
-	  "name":"Mutual Live",
-	  "sameAs":"http://www.mutual-live.com",
-	  "description":"Mutual Live is a Tennessee southern rock group",
-	  "potentialAction":{
-	    "@type":"ListenAction",
-	    "target":[
-	      {
-	        "url":"https://play.spotify.com/album/14Dje5lYqoHIINm7Bgnl1G",
-	        "inLanguage":"en",
-	        "actionPlatform":[
-	          "http://schema.org/DesktopWebPlatform",
-	          "http://schema.org/MobileWebPlatform",
-	          "http://schema.org/IOSPlatform"
-	        ]
-	      }
-	    ],
-	    "expectsAcceptanceOf":{
-	      "@type":"Offer",
-	      "eligibleRegion":[
-	        {
-	          "@type":"Country",
-	          "name":"US"
-	        },
-	        {
-	          "@type":"Country",
-	          "name":"BR"
-	        }
-	      ]
-	    }
-	  }
-	}
-	</script>
-
 	<!-- Fa fa Font for icons -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Fonts -->
@@ -825,7 +785,62 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" async></script>
 	<!-- custom jQuery + lightbox-->
 	<script src="js/jquery.js" async></script>
-
+<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org",
+	    "@type": "MusicGroup",
+	    "@id": "",
+	    "name": "Mutual Live",
+	    "sameAs": "http://www.mutual-live.com",
+	    "foundingLocation": {
+	        "@type": "City",
+	        "name": "Jackson"
+	    },
+	    "foundingDate": "2013",
+	    "genre": "Rock",
+	    "album": {
+	        "@type": "MusicAlbum",
+	        "name": "Mama Raised an Outlaw",
+	        "alternateName": "Mama Raised an Outlaw",
+	        "@id": "https://www.google.com/search?q=Mutual+Live+Mama+Raised+an+Outlaw&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEwqibc0z8pOUYJyy3NTisvKTbXEs5Ot9HNLizOT9ROLSjKLS6wSc5JKc4sBo3yajzkAAAA&sa=X&ved=0ahUKEwiAvIyokq3LAhXD6CYKHXzGDDgQmxMIeSgBMBE",
+	        "datePublished": "2015"
+	    },
+	    "member": [
+	      {
+	        "@type": "OrganizationRole",
+	        "member": {
+	          "@type": "Person",
+	          "name": "Zack Mutual"
+	        },
+	        "roleName": ["lead vocals"]
+	      },
+	      {
+	        "@type": "OrganizationRole",
+	        "member": {
+	          "@type": "Person",
+	          "name": "Dan Drogosh"
+	        },
+	        "roleName": ["lead guitar"]
+	      },
+	      {
+	        "@type": "OrganizationRole",
+	        "member": {
+	          "@type": "Person",
+	          "name": "Joseph Maliszewski"
+	        },
+	        "roleName": ["bass guitar"]
+	      },
+	      {
+	        "@type": "OrganizationRole",
+	        "member": {
+	          "@type": "Person",
+	          "name": "Evan Mayo"
+	        },
+	        "roleName": "drums"
+	      }
+	    ]
+	}
+	</script>
 <!-- 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
