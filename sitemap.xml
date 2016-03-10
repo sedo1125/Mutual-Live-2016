@@ -7,8 +7,11 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.mutual-live.com/</loc>
-  <lastmod>2016-03-01T02:56:24+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  	<loc>http://www.mutual-live.com/</loc>
+	<lastmod>2016-03-09T22:01:11+00:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>1.00</priority>
+
 </url>
 </urlset>
+
