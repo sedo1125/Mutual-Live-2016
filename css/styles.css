@@ -149,7 +149,8 @@ a {
 }
 
 #myVideo {  
-max-height: 810px;
+  width: 100% !important;
+  height: auto !important;
 }
 .bigwords {
 	color: #903;
@@ -160,9 +161,6 @@ max-height: 810px;
     overflow: hidden;
   }
 
-#myVideo {  
-	max-height: 810px;
-}
 .footer {
     position: fixed;
     height: 80px;
